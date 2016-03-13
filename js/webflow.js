@@ -1303,6 +1303,7 @@
 	    // Show or hide status divs
 	    data.done.toggle(success);
 	    data.fail.toggle(!success);
+	    //$("div.soon").hide();
 
 	    // Hide form on success
 	    form.toggle(!success);
