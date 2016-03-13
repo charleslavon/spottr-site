@@ -172,7 +172,11 @@ p {
 }
 
 .social-widget-wrapper {
-  margin-bottom: 17px;
+  position: absolute;
+  right: 0px;
+  bottom: 0px;
+  margin-right: 14px;
+  margin-bottom: 78px;
 }
 
 .success-message {
@@ -336,6 +340,16 @@ p {
   float: none;
 }
 
+.list-info.small-text {
+  display: block;
+  padding-top: 36px;
+}
+
+.social-icon {
+  margin-left: 4px;
+  padding-left: 0px;
+}
+
 @media (max-width: 991px) {
   .button {
     width: 40%;
@@ -343,8 +357,41 @@ p {
   .field {
     width: 60%;
   }
+  .small-text {
+    margin-bottom: 3px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    float: right;
+  }
+  .social-widget-wrapper {
+    position: absolute;
+    top: 23px;
+    right: 18px;
+    bottom: 0px;
+    margin-top: 9px;
+    margin-bottom: auto;
+  }
   .content-wrapper {
     width: 81%;
+  }
+  .social {
+    position: static;
+    float: none;
+  }
+  .insta {
+    margin-right: 5px;
+    padding-right: 5px;
+    float: right;
+    border: 0px solid #000;
+  }
+  .facebook {
+    margin-right: 8px;
+    padding-right: 5px;
+    float: right;
+  }
+  .social-icon {
+    margin-right: 9px;
+    padding-left: 0px;
   }
 }
 
@@ -451,7 +498,7 @@ p {
   }
   .social-widget-wrapper {
     display: block;
-    width: 194px;
+    width: auto;
     margin-right: auto;
     margin-bottom: 21px;
     margin-left: auto;
