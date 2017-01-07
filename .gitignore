@@ -8,7 +8,7 @@ src/node
 node
 
 #build folders
-dist
+#dist
 target
 
 
