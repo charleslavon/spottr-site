@@ -1,2 +1,2 @@
 # spottr-site
-spottr website
+promotional website for spottr.fit
